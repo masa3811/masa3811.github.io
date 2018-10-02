@@ -6,12 +6,10 @@
 </head>
 <body>
 	<script>		
-		var ans = window.prompt('数を入力して');
-		ans = parseInt(ans);
-		if (ans > 5){
-			window.alert('5より大きい');	
-		}else{
-			window.alert('5以下');	
+		var sum = 0;
+		for(var i=1; i<=10; i++){
+			sum = sum + i;
+			window.document.write('<p>' + sum + '</p>');	
 		}
 	</script>
 </body>
